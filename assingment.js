@@ -64,7 +64,21 @@ function budgetCalculator (watchCount, phoneCount, laptopCount){
   }
   return totalCost;
  }
+ //mega Friend
 
+ function megaFriend (friends){
+     if (friends.length <=0)
+     return "ERROR- Empty Array"\
+
+     var largestName = "";
+     for (var i = 0; i < friends.length; i++) { 
+         if (friends[i].length > largestName.length) {
+             largestName = friends[i];
+          }
+     }
+     return largestName;
+ }
+ 
 
 
 
